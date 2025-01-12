@@ -1,0 +1,8 @@
+select SESSION_ID, EVENT_ID, EVENT_TSTAMP, SEARCH_TERM
+from DWH.dwh.CUBE_WEBANALYTICS_SEARCHES
+where 1=1
+and PRODUCT = 'ndfr'
+and YEAR(DATUM) = 2023
+and SEARCH_TERM <> ''
+and INTERACTION_TYPE = 'site_search'
+;
