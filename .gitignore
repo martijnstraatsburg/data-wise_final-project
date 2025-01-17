@@ -3,3 +3,4 @@ data/robbert_vectors.csv
 data/CUBE_WEBANALYTICS_SEARCHES_202410101536.csv
 data/data.csv
 data/labeled_data.csv
+data/word2vec_vectors.csv
